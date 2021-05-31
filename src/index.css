@@ -127,14 +127,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-:root {
-  --light-blue: #a1dad0;
-  --primary-blue: #5ebabc;
-  --dark-blue: #459ab9;
-  --yellow: #fce555;
-  --orange: #f8ce47;
-  --dark-orange: #f5b840;
-  --gray: #808080;
-  --dark-gray: #696969;
-}
