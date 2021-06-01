@@ -1,16 +1,15 @@
 .about {
-  width: 100vw;
-  padding: 1em 0;
   background: linear-gradient(rgba(69, 155, 186, 0), rgba(161, 218, 208, 0.6));
 }
 
 .about img {
-  width: 70vw;
-  margin: 0 15vw;
+  width: 70%;
+  margin: 0 15%;
 }
 
 .about .content {
   text-align: center;
+  padding-bottom: 1em;
 }
 .about .content h3 {
   font-style: italic;

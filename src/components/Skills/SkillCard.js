@@ -27,15 +27,17 @@ const timeElapsed = (startDate) => {
 const SkillCard = (props) => {
   return (
     <li className={styles['skill-card']}>
-      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <title>{props.data.name}</title>
-        <path d={props.data.svgPath} />
-      </svg>
-      <div className={styles.content}>
-        <div className={styles.name}>{props.data.name}</div>
-        <div className={styles.duration}>{`${timeElapsed(props.data.date).time} ${
-          timeElapsed(props.data.date).unit
-        }`}</div>
+      <div className={styles.wrapper}>
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <title>{props.data.name}</title>
+          <path d={props.data.svgPath} />
+        </svg>
+        <div className={styles.content}>
+          <div className={styles.name}>{props.data.name}</div>
+          <div className={styles.duration}>{`${timeElapsed(props.data.date).time} ${
+            timeElapsed(props.data.date).unit
+          }`}</div>
+        </div>
       </div>
     </li>
   );

@@ -14,7 +14,7 @@ const NavMobile = () => {
   };
 
   return (
-    <section>
+    <div>
       <NavMain active={modalDisplay} closeModalHandler={closeNavHandler} className={styles.modal} />
       <div className={styles['nav-mobile']}>
         <img src={logo} alt="Logo for website"></img>
@@ -30,7 +30,7 @@ const NavMobile = () => {
           />
         </svg>
       </div>
-    </section>
+    </div>
   );
 };
 

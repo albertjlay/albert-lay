@@ -3,7 +3,7 @@ import SocialList from './social/SocialList';
 
 const Home = () => {
   return (
-    <section className={styles.wrapper}>
+    <div className={styles.wrapper}>
       <main>
         <div className={styles.intro}>
           <p>Hey there!</p>
@@ -26,7 +26,7 @@ const Home = () => {
           />
         </svg>
       </main>
-    </section>
+    </div>
   );
 };
 export default Home;

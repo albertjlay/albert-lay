@@ -11,8 +11,8 @@
 }
 
 h2 {
-  width: 90vw;
-  margin: 0 auto;
+  width: 90%;
+  margin: 10px auto;
   padding-bottom: 10px;
   border-bottom: solid black 1px;
   font-weight: 700;
@@ -35,4 +35,9 @@ button.active {
 }
 button:hover {
   text-decoration: underline;
+}
+
+section {
+  width: 94vw;
+  padding: 3em 3vw 0 3vw;
 }
