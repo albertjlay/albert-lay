@@ -1,9 +1,8 @@
 /* referenced from https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity */
 .wrapper {
   width: 100vw;
-  height: 80vh;
-  display: relative;
-  margin-top: 12vh;
+  height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
