@@ -1,0 +1,26 @@
+.about {
+  width: 100vw;
+  padding: 1em 0;
+  background: linear-gradient(rgba(69, 155, 186, 0), rgba(161, 218, 208, 0.6));
+}
+
+.about img {
+  width: 70vw;
+  margin: 0 15vw;
+}
+
+.about .content {
+  text-align: center;
+}
+.about .content h3 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+.about .content p {
+  padding: 0 5%;
+  line-height: 1.4em;
+  margin: 1em;
+  font-size: 0.9em;
+}
