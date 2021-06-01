@@ -1,0 +1,25 @@
+footer {
+  width: 100%;
+  background-color: var(--primary-blue);
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer > svg {
+  height: 5%;
+  width: 5%;
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+footer > svg:hover {
+  fill: var(--yellow);
+}
+
+footer .socials {
+  width: 50%;
+  margin: auto;
+}
+
+footer .copyright {
+  font-weight: 300;
+}
