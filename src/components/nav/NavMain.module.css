@@ -1,28 +1,32 @@
-.nav {
+.nav,
+.nav img,
+.nav > svg,
+.nav .options,
+.nav .options li {
   visibility: hidden;
   height: 0;
 }
-.nav.active {
+
+.nav.active img,
+.nav.active > svg,
+.nav.active .options,
+.nav.active .options li,
+.nav.active .social {
   visibility: visible;
-  width: 100vw;
-  height: 90vh;
-  background-color: rgba(253, 253, 253, 0.97);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 5vh 0;
+}
+
+.nav {
   transition: all 150ms linear;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  position: absolute;
+  z-index: 2;
 }
 
 .nav img {
   display: none;
+  visibility: hidden;
 }
 
 .nav > svg {
+  height: 15%;
   width: 15%;
   margin: 1em 2em;
   align-self: flex-end;
@@ -44,4 +48,20 @@
   font-weight: 300;
   font-size: 2em;
   text-align: right;
+}
+
+.nav.active {
+  visibility: visible;
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(253, 253, 253, 0.97);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh 0;
+  transition: all 150ms linear;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  position: absolute;
 }

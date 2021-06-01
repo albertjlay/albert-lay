@@ -4,8 +4,6 @@ import SocialList from '../social/SocialList';
 
 const sectionList = ['home', 'about', 'skills', 'projects'];
 const NavMain = (props) => {
-  // const [navDisplay, setNavDisplay] = useState(props.active);
-
   const exitHandler = () => {
     props.closeModalHandler();
   };
@@ -29,7 +27,7 @@ const NavMain = (props) => {
           <li key={el}>{el}</li>
         ))}
       </ul>
-      <SocialList className={styles.social} />
+      {props.active && <SocialList />}
     </div>
   );
 };

@@ -1,6 +1,7 @@
 .social-list {
   margin: 1em 0;
   text-align: center;
+  transition: all 100ms ease-in;
 }
 .social-list li {
   display: inline;
