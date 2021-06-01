@@ -9,14 +9,20 @@ const About = () => {
         <img src={polaroid}></img>
         <div>
           <h3>Hiya!</h3>
-          <p>The name’s Albert. I’m a second-year CS student at the University of Waterloo.</p>
           <p>
-            I’m interested in a lot of things in software development, but currently I’m focusing on
-            front-end development.
+            The name’s Albert. I’m a second-year CS student at the University of Waterloo. I’m
+            interested in all things in software, but currently I’m focusing on front-end
+            development.
           </p>
           <p>
             I also love playing video games (anyone up for a match of Smash?) and taking pictures of
             my daily life!
+          </p>
+          <p>
+            <b>
+              Currently looking for opportunities in Winter 2022 (January - April)! Available for
+              various kinds of software roles, remote or in-person.
+            </b>
           </p>
         </div>
       </div>

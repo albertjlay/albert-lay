@@ -22,4 +22,8 @@
   line-height: 1.4em;
   margin: 1em;
   font-size: 0.9em;
+  font-weight: 300;
+}
+.about .content p b {
+  font-weight: 600;
 }
