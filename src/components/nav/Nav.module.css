@@ -6,10 +6,17 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 5vh 0;
-  transition: all 3000ms ease-in;
+  transition: all 500ms ease-in;
+  position: absolute;
+  visibility: hidden;
 }
+.nav.active {
+  visibility: visible;
+}
+
 .nav img {
   display: none;
+  transition: all 400ms ease-in;
 }
 
 .nav > svg {
@@ -18,6 +25,7 @@
   align-self: flex-end;
   cursor: pointer;
   transition: all 100ms ease-in;
+  transition: visibility 400ms ease-in;
 }
 .nav > svg:hover {
   fill: var(--yellow);
@@ -29,9 +37,11 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 0 4em;
+  transition: all 400ms ease-in;
 }
 .nav .options li {
   font-weight: 300;
   font-size: 2em;
   text-align: right;
+  transition: all 400ms ease-in;
 }
