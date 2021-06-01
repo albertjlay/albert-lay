@@ -17,11 +17,16 @@ button,
 .button-style {
   border: solid 1px var(--dark-orange);
   background-color: transparent;
-  padding: 0.2em 1em;
+  padding: 0.4em 1.2em;
   cursor: pointer;
   transition: all 100ms ease-in;
+  font-weight: 700;
 }
 button:hover,
-.button.active {
+button.active {
   background-color: var(--dark-orange);
+  color: white;
+}
+button:hover {
+  text-decoration: underline;
 }
