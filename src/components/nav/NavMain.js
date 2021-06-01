@@ -1,18 +1,16 @@
-import { useState } from 'react';
 import styles from './NavMain.module.css';
 import logo from '../../assets/logo.svg';
 import SocialList from '../social/SocialList';
 
 const sectionList = ['home', 'about', 'skills', 'projects'];
-const NavMain = () => {
-  const [navDisplay, setNavDisplay] = useState(false);
+const NavMain = (props) => {
+  // const [navDisplay, setNavDisplay] = useState(props.active);
 
   const exitHandler = () => {
-    console.log('hello');
-    setNavDisplay(false);
+    props.closeModalHandler();
   };
   return (
-    <div className={`${styles.nav} ${navDisplay && styles.active}`}>
+    <div className={`${styles.nav} ${props.active && styles.active}`}>
       <img src={logo} alt="Logo for website"></img>
       <svg
         xmlns="http://www.w3.org/2000/svg"
