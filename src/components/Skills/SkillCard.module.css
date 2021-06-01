@@ -1,0 +1,22 @@
+.skill-card {
+  width: 80vw;
+  margin: 1em auto;
+  padding: 1em;
+  border-color: rebeccapurple;
+  display: flex;
+}
+
+.skill-card svg {
+  width: 15%;
+  height: auto;
+  margin-right: 2em;
+}
+
+.skill-card .content {
+  margin: auto 0;
+}
+.skill-card .content .name {
+  font-weight: 800;
+  margin-bottom: 15%;
+  font-size: 1.1em;
+}
