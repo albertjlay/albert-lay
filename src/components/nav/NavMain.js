@@ -28,7 +28,7 @@ const NavMain = () => {
       </svg>
       <ul className={styles.options}>
         {sectionList.map((el) => (
-          <li>{el}</li>
+          <li key={el}>{el}</li>
         ))}
       </ul>
       <SocialList className={styles.social} />

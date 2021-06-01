@@ -32,7 +32,7 @@ const SocialList = () => {
   return (
     <ul className={styles['social-list']}>
       {socialObjects.map((el) => (
-        <Social data={el} />
+        <Social data={el} key={el.name} />
       ))}
     </ul>
   );
