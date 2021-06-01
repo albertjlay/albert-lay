@@ -1,0 +1,14 @@
+.projects-section {
+  width: 96vw;
+  background-color: rgba(161, 218, 208, 0.6);
+  padding: 3em 3vw 0 3vw;
+}
+
+.projects-section h2 {
+  margin: 1em 0;
+}
+
+.projects-section ul {
+  width: 100%;
+  text-align: center;
+}
