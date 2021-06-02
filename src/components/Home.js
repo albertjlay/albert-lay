@@ -1,5 +1,16 @@
 import styles from './Home.module.css';
+import ReactRotatingText from 'react-rotating-text';
 import SocialList from './social/SocialList';
+
+const rotatingTextData = [
+  'Student software engineer',
+  'UW CS student',
+  'Rice lover',
+  'Science nerd',
+  'Part-time gamer',
+  'Avid MCU fan',
+  'Travel addict (on pause)',
+];
 
 const Home = () => {
   return (
@@ -10,7 +21,9 @@ const Home = () => {
           <h1>
             I'm <span>Albert.</span>
           </h1>
-          <div className={styles['rolling-text']}>Student software developer</div>
+          <div className={styles['rotating-text-wrapper']}>
+            <ReactRotatingText item items={rotatingTextData} />
+          </div>
         </div>
         <div className={styles.buttons}>
           <button className="active">say hi!</button>
