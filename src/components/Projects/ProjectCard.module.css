@@ -1,6 +1,6 @@
 .project-card {
   height: auto;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   display: inline-block;
   flex-direction: column;
@@ -20,11 +20,11 @@
   font-weight: 700;
   font-size: 1.5em;
   margin-top: 0.4em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.6em;
 }
 .project-card .info .tools span {
   margin: 0 0.6em;
-  font-size: 0.7em;
+  font-size: 1em;
   color: var(--gray);
 }
 
