@@ -29,6 +29,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 main .intro {
@@ -36,13 +37,11 @@ main .intro {
   font-weight: 500;
 }
 main .intro p {
-  text-align: center;
   margin-bottom: 1em;
   font-size: 4vw;
 }
 main .intro h1 {
   font-size: 7vh;
-  text-align: center;
 }
 main .intro h1 span {
   color: var(--dark-blue);
@@ -54,7 +53,6 @@ main .rotating-text-wrapper {
   margin: 1em auto;
   padding-bottom: 5px;
   border-bottom: solid black 1px;
-  text-align: center;
   font-size: 4.5vw;
   font-weight: 300;
 }
@@ -68,6 +66,7 @@ main .buttons button {
 
 main .socials {
   width: 60vw;
+  align-self: center;
 }
 
 main > svg {
@@ -77,4 +76,45 @@ main > svg {
 }
 main > svg:hover {
   fill: var(--dark-blue);
+}
+
+@media (min-width: 900px) {
+  main {
+    text-align: left;
+    align-items: flex-start;
+    padding: 0 5vw;
+    font-size: 1vw;
+    width: 90vw;
+    height: auto;
+  }
+  main .intro p {
+    margin-bottom: 1em;
+    font-size: 150%;
+  }
+  main .intro h1 {
+    font-size: 800%;
+  }
+  main .rotating-text-wrapper {
+    font-size: 300%;
+    width: 100%;
+  }
+  main .buttons {
+    width: 100%;
+  }
+  main .buttons button {
+    margin: 0px;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    width: 20%;
+    font-size: 150%;
+    padding: 0.6em 1em;
+  }
+  main .socials {
+    width: 25%;
+  }
+  main > svg {
+    align-self: center;
+    width: 10%;
+    height: 10%;
+  }
 }
