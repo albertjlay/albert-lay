@@ -6,8 +6,8 @@ footer {
 }
 
 footer > svg {
-  height: 5%;
-  width: 5%;
+  height: 10%;
+  width: 10%;
   cursor: pointer;
   transition: all 100ms ease-in;
 }

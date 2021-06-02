@@ -73,5 +73,8 @@ main .socials {
 main > svg {
   margin-top: 3vh;
   width: 10vw;
-  fill: var(--dark-gray);
+  cursor: pointer;
+}
+main > svg:hover {
+  fill: var(--dark-blue);
 }
