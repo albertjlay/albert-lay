@@ -6,8 +6,12 @@ const sectionList = ['home', 'about', 'skills', 'projects'];
 const Nav = () => {
   return (
     <nav>
-      <NavDesktop sectionList={sectionList} />
-      <NavMobile sectionList={sectionList} />
+      <div className={styles['desktop-wrapper']}>
+        <NavDesktop sectionList={sectionList} />
+      </div>
+      <div className={styles['mobile-wrapper']}>
+        <NavMobile sectionList={sectionList} />
+      </div>
     </nav>
   );
 };

@@ -1,0 +1,29 @@
+.nav-desktop {
+  width: 94vw;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  padding: 1vh 3vw;
+}
+
+.nav-desktop img {
+  width: 7%;
+}
+
+.nav-desktop ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+.nav-desktop ul li:hover {
+  transition: all 100ms ease-in;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+}

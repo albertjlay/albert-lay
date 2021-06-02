@@ -23,3 +23,13 @@ footer .socials {
 footer .copyright {
   font-weight: 300;
 }
+
+@media (min-width: 800px) {
+  footer > svg {
+    height: 5%;
+    width: 5%;
+  }
+  footer .socials {
+    width: 30%;
+  }
+}

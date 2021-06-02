@@ -1,0 +1,11 @@
+.desktop-wrapper {
+  display: none;
+}
+@media (min-width: 800px) {
+  .desktop-wrapper {
+    display: block;
+  }
+  .mobile-wrapper {
+    display: none;
+  }
+}

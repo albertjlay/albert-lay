@@ -51,6 +51,10 @@
   font-weight: 300;
   font-size: 100%;
   margin: 1em 0;
+  cursor: pointer;
+}
+.nav-list li:hover {
+  color: var(--dark-blue);
 }
 
 .nav.active {
