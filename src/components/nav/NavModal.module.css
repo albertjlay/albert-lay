@@ -26,9 +26,9 @@
 }
 
 .nav > svg {
-  height: 15%;
-  width: 15%;
-  margin: 1em 2em;
+  height: 13%;
+  width: 13%;
+  margin: 1em 7%;
   align-self: flex-end;
   cursor: pointer;
   transition: fill 100ms ease-in;
@@ -37,17 +37,20 @@
   fill: var(--yellow);
 }
 
-.nav .options {
+.nav-list {
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 0 4em;
-}
-.nav .options li {
-  font-weight: 300;
-  font-size: 2em;
+  padding: 0 10%;
   text-align: right;
+  font-size: 2em;
+}
+
+.nav-list li {
+  font-weight: 300;
+  font-size: 100%;
+  margin: 1em 0;
 }
 
 .nav.active {

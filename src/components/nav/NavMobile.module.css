@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 12vh;
+  height: 90px;
   width: 90vw;
   padding: 1vh 5vw;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.98);
   position: fixed;
   z-index: 1;
 }

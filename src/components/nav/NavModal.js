@@ -1,9 +1,9 @@
-import styles from './NavMain.module.css';
+import styles from './NavModal.module.css';
 import logo from '../../assets/logo.svg';
 import SocialList from '../social/SocialList';
+import { Link } from 'react-scroll';
 
-const sectionList = ['home', 'about', 'skills', 'projects'];
-const NavMain = (props) => {
+const NavModal = (props) => {
   const exitHandler = () => {
     props.closeModalHandler();
   };
@@ -22,9 +22,13 @@ const NavMain = (props) => {
           points="13 11 22 11 22 13 13 13 13 22 11 22 11 13 2 13 2 11 11 11 11 2 13 2"
         />
       </svg>
-      <ul className={styles.options}>
-        {sectionList.map((el) => (
-          <li key={el}>{el}</li>
+      <ul className={styles['nav-list']}>
+        {props.sectionList.map((el) => (
+          <li key={el}>
+            <Link activeClass="current" to={el} spy={true} smooth={true} offset={-90}>
+              {el}
+            </Link>
+          </li>
         ))}
       </ul>
       {props.active && <SocialList />}
@@ -32,4 +36,4 @@ const NavMain = (props) => {
   );
 };
 
-export default NavMain;
+export default NavModal;

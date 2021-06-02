@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.svg';
 import styles from './NavMobile.module.css';
-import NavMain from './NavMain';
+import NavModal from './NavModal';
 
-const NavMobile = () => {
+const NavMobile = (props) => {
   const [modalDisplay, setModalDisplay] = useState(false);
 
   const openNavHandler = () => {
@@ -15,7 +15,12 @@ const NavMobile = () => {
 
   return (
     <div>
-      <NavMain active={modalDisplay} closeModalHandler={closeNavHandler} className={styles.modal} />
+      <NavModal
+        active={modalDisplay}
+        closeModalHandler={closeNavHandler}
+        className={styles.modal}
+        sectionList={props.sectionList}
+      />
       <div className={styles['nav-mobile']}>
         <img src={logo} alt="Logo for website"></img>
         <svg
