@@ -78,7 +78,7 @@ main > svg:hover {
   fill: var(--dark-blue);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   main {
     text-align: left;
     align-items: flex-start;
