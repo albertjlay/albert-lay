@@ -1,6 +1,6 @@
 .project-card {
   height: auto;
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   display: inline-block;
   flex-direction: column;
@@ -29,12 +29,20 @@
 }
 
 .project-card .info .links {
-  margin: 1.5em 0;
+  margin: 1.5em auto;
+  width: 90%;
 }
 .project-card .info .links a {
   color: black;
   text-decoration: none;
   margin: 0 5%;
+  display: inline-block;
+  width: 25%;
+}
+@media (max-width: 500px) {
+  .project-card .info .links a {
+    font-size: 0.7em;
+  }
 }
 .project-card .info .links a:hover {
   background-color: var(--dark-orange);

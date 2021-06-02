@@ -3,7 +3,16 @@
 }
 
 .projects-section ul {
-  width: 100%;
+  width: 90%;
   text-align: center;
   padding-bottom: 1em;
+  display: grid;
+  grid-gap: 2em;
+  margin: auto;
+}
+
+@media (min-width: 750px) {
+  .projects-section ul {
+    grid-template-columns: 1fr 1fr;
+  }
 }
