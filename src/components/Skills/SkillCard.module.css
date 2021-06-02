@@ -1,9 +1,7 @@
 .skill-card {
-  width: 250px;
-  margin: 1em auto;
+  width: 100%;
   padding: 1em;
   border-color: rebeccapurple;
-  display: inline-block;
 }
 
 .skill-card .wrapper {
@@ -22,5 +20,5 @@
 .skill-card .content .name {
   font-weight: 800;
   margin-bottom: 15%;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
