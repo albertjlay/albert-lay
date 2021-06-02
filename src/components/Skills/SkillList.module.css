@@ -2,6 +2,7 @@
   padding: 0 5vw;
   display: grid;
   grid-gap: 20px;
+  padding-bottom: 4vh;
 }
 
 @media (min-width: 800px) {

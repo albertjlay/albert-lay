@@ -32,7 +32,7 @@
   .about .content {
     display: flex;
     justify-content: flex-start;
-
+    align-items: center;
     text-align: left;
     padding: 1.5em 5%;
   }
@@ -40,15 +40,15 @@
     width: 40%;
     height: 40%;
     margin: 0;
-    align-self: center;
   }
   .about .content h3 {
     margin: 0;
     padding: 0 5%;
   }
   .about .content p {
+    width: 80%;
     align-self: flex-start;
     margin: 1em 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
