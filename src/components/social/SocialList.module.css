@@ -14,5 +14,5 @@
   transition: all 100ms ease-in;
 }
 .social-list li svg:hover {
-  fill: var(--dark-blue);
+  fill: var(--dark-orange);
 }
