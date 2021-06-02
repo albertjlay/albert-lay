@@ -21,9 +21,8 @@ const getWindowDimensions = () => {
 };
 
 const Home = () => {
-  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  const [windowDimensions] = useState(getWindowDimensions());
   const chevronsClickHandler = () => {
-    console.log(windowDimensions);
     scroller.scrollTo('about', {
       duration: 1500,
       delay: 100,

@@ -1,7 +1,5 @@
 import './App.css';
-import SocialList from './components/social/SocialList';
 import Nav from './components/nav/Nav';
-import NavMobile from './components/nav/NavMobile';
 import Home from './components/Home';
 import About from './components/About';
 import SkillList from './components/Skills/SkillList';
