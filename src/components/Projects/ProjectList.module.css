@@ -1,18 +1,32 @@
 .projects-section {
   background-color: rgba(161, 218, 208, 0.6);
+  padding-bottom: 4vh;
 }
 
 .projects-section ul {
-  width: 90%;
+  width: 80%;
   text-align: center;
   padding-bottom: 1em;
   display: grid;
-  grid-gap: 2em;
+  grid-column-gap: 5%;
   margin: auto;
 }
 
 @media (min-width: 750px) {
+  .projects-section {
+    grid-template-columns: 1fr 4fr;
+    display: grid;
+    align-items: center;
+  }
+  .projects-section h2 {
+    padding: 0;
+    border: none;
+    height: auto;
+    font-size: 5.5vw;
+  }
   .projects-section ul {
     grid-template-columns: 1fr 1fr;
+    justify-self: end;
+    margin: 0;
   }
 }
