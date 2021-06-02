@@ -14,16 +14,41 @@
 .about .content h3 {
   font-style: italic;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 4vw;
   margin-top: 1.5em;
 }
 .about .content p {
   padding: 0 5%;
   line-height: 1.4em;
   margin: 1em;
-  font-size: 0.9em;
+  font-size: 3vw;
   font-weight: 300;
 }
 .about .content p b {
   font-weight: 600;
+}
+
+@media (min-width: 900px) {
+  .about .content {
+    display: flex;
+    justify-content: flex-start;
+
+    text-align: left;
+    padding: 1.5em 5%;
+  }
+  .about .content img {
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    align-self: center;
+  }
+  .about .content h3 {
+    margin: 0;
+    padding: 0 5%;
+  }
+  .about .content p {
+    align-self: flex-start;
+    margin: 1em 0;
+    font-size: 2vw;
+  }
 }

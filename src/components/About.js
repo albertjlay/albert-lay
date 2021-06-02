@@ -19,10 +19,8 @@ const About = () => {
             my daily life!
           </p>
           <p>
-            <b>
-              Currently looking for opportunities in Winter 2022 (January - April)! Available for
-              various kinds of software roles, remote or in-person.
-            </b>
+            <b>Currently looking for opportunities in Winter 2022!</b>
+            <br /> Available for various kinds of software roles, remote or in-person.
           </p>
         </div>
       </div>
