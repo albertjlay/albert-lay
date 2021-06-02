@@ -2,6 +2,7 @@ import styles from './Home.module.css';
 import ReactRotatingText from 'react-rotating-text';
 import SocialList from './social/SocialList';
 import { scroller } from 'react-scroll';
+import { useState } from 'react';
 
 const rotatingTextData = [
   'Student software engineer',
@@ -13,9 +14,22 @@ const rotatingTextData = [
   'Travel addict (on pause)',
 ];
 
+// from https://stackoverflow.com/questions/36862334/get-viewport-window-height-in-reactjs
+const getWindowDimensions = () => {
+  const { innerWidth: width, innerHeight: height } = window;
+  return { width, height };
+};
+
 const Home = () => {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
   const chevronsClickHandler = () => {
-    scroller.scrollTo('about', { duration: 1500, delay: 100, smooth: true, offset: -90 });
+    console.log(windowDimensions);
+    scroller.scrollTo('about', {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
+      offset: windowDimensions.width < 800 ? -90 : 0,
+    });
   };
 
   return (

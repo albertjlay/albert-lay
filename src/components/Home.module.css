@@ -73,9 +73,10 @@ main > svg {
   margin-top: 3vh;
   width: 10vw;
   cursor: pointer;
+  transition: all 100ms ease-in;
 }
 main > svg:hover {
-  fill: var(--dark-blue);
+  fill: var(--dark-orange);
 }
 
 @media (min-width: 1200px) {
