@@ -82,11 +82,12 @@ main > svg:hover {
 @media (min-width: 1200px) {
   main {
     text-align: left;
+    justify-content: flex-end;
     align-items: flex-start;
     padding: 0 5vw;
-    font-size: 1vw;
+    font-size: 1em;
     width: 90vw;
-    height: auto;
+    height: 100vh;
   }
   main .intro p {
     margin-bottom: 1em;
