@@ -25,7 +25,14 @@ const NavModal = (props) => {
       <ul className={styles['nav-list']}>
         {props.sectionList.map((el) => (
           <li key={el}>
-            <Link activeClass="current" to={el} spy={true} smooth={true} offset={-90}>
+            <Link
+              activeClass="current-section"
+              to={el}
+              spy={true}
+              smooth={true}
+              offset={-90}
+              onSetActive={exitHandler}
+            >
               {el}
             </Link>
           </li>

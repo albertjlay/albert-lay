@@ -1,4 +1,4 @@
-import NavMain from './NavMain';
+import NavList from './NavList';
 
 const NavDesktop = () => {
   return <div></div>;

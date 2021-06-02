@@ -14,7 +14,7 @@ const rotatingTextData = [
 
 const Home = () => {
   return (
-    <div className={styles.wrapper}>
+    <div id="home" className={styles.wrapper}>
       <main>
         <div className={styles.intro}>
           <p>Hey there!</p>

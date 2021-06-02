@@ -58,3 +58,8 @@ section {
     opacity: 0;
   }
 }
+
+/* for react-scroll */
+.current-section {
+  font-weight: 700;
+}

@@ -69,7 +69,7 @@ const skills = [
 
 const SkillList = () => {
   return (
-    <section className={styles['skills-section']}>
+    <section id="skills" className={styles['skills-section']}>
       <h2>Tools of the trade</h2>
       <ul className={styles['skill-list']}>
         {skills.map((el) => (

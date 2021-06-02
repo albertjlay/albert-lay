@@ -72,7 +72,7 @@ const projectData = [
 
 const ProjectList = () => {
   return (
-    <section className={styles['projects-section']}>
+    <section id="projects" className={styles['projects-section']}>
       <h2>What I've been up to</h2>
       <ul>
         {projectData.map((el) => (
