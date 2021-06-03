@@ -28,13 +28,21 @@ button,
   transition: all 100ms ease-in;
   font-weight: 700;
 }
+.button-style {
+  text-decoration: none;
+  color: black;
+}
 button:hover,
-button.active {
+button.active,
+.button-style.active {
   background-color: var(--dark-orange);
   color: white;
 }
-button:hover {
+button:hover,
+.button-style:hover {
   text-decoration: underline;
+  background-color: var(--dark-orange);
+  color: white;
 }
 
 section {
