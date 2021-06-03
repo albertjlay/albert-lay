@@ -56,7 +56,7 @@ const Home = () => {
             >
               say hi!
             </a>
-            <a className="button-style" href={resume} target="_blank" rel="noreferrer">
+            <a className="button-style" href={resume} download>
               view resume
             </a>
           </div>
