@@ -35,7 +35,7 @@ const projectData = [
     ),
     dateCreated: new Date(2021, 4),
     media: tracenext,
-    tools: ['HTML5', 'CSS3', 'JavaScript', 'Flask'],
+    tools: ['HTML5', 'CSS3', 'Flask'],
     remote: 'https://github.com/levinaind/TO-Hacks-2021',
     livesite: '',
   },
