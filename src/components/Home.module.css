@@ -90,7 +90,7 @@ main .chevrons:hover svg {
   fill: var(--dark-orange);
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 800px) {
   main {
     text-align: left;
     justify-content: flex-end;
