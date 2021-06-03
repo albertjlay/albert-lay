@@ -47,8 +47,17 @@ const Home = () => {
             </div>
           </div>
           <div className={styles.buttons}>
-            <button className="active">say hi!</button>
-            <button>view resume</button>
+            <a
+              className="active button-style"
+              href="mailto:alay@uwaterloo.ca?subject=Hey, Albert!"
+              target="_blank"
+              rel="noreferrer"
+            >
+              say hi!
+            </a>
+            <a className="button-style" href="resume.pdf">
+              view resume
+            </a>
           </div>
         </Fade>
 

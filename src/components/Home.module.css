@@ -57,7 +57,10 @@ main .rotating-text-wrapper {
   font-weight: 300;
 }
 
-main .buttons button {
+main .buttons {
+  margin-bottom: 1.5em;
+}
+main .buttons a {
   margin: 0 1vw 7vh 1vw;
   width: 35vw;
   font-size: 4vw;
@@ -111,7 +114,7 @@ main .chevrons:hover svg {
   main .buttons {
     width: 100%;
   }
-  main .buttons button {
+  main .buttons a {
     margin: 0px;
     margin-right: 2%;
     margin-bottom: 3%;
