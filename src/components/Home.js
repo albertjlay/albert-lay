@@ -58,7 +58,7 @@ const Home = () => {
             </a>
             <a
               className="button-style"
-              href={process.env.PUBLIC_URL + '/resume-albert-lay.pdf'}
+              href="https://drive.google.com/file/d/18MJtE9icLKQqg7XLZRi5m49c8COWzp_E/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
