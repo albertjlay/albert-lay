@@ -55,7 +55,12 @@ const Home = () => {
             >
               say hi!
             </a>
-            <a className="button-style" href="resume.pdf">
+            <a
+              className="button-style"
+              href={process.env.PUBLIC_URL + '/resume-albert-lay.pdf'}
+              target="_blank"
+              rel="noreferrer"
+            >
               view resume
             </a>
           </div>
