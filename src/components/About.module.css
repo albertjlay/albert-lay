@@ -37,6 +37,7 @@
     align-items: center;
     text-align: left;
     padding: 1.5em 5%;
+    width: 90%;
   }
   .about .content img {
     width: 35%;
