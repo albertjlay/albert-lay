@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --light-blue: #a1dad0;
   --primary-blue: #5ebabc;
@@ -46,7 +50,7 @@ button:hover,
 }
 
 section {
-  width: 94vw;
+  width: 100vw;
   padding: 3em 3vw 0 3vw;
 }
 
