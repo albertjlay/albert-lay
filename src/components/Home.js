@@ -1,4 +1,4 @@
-import styles from './Home.module.css';
+import styles from './Home.module.scss';
 import ReactRotatingText from 'react-rotating-text';
 import SocialList from './social/SocialList';
 import { scroller } from 'react-scroll';

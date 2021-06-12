@@ -1,4 +1,4 @@
-import styles from './SkillCard.module.css';
+import styles from './SkillCard.module.scss';
 import Rotate from 'react-reveal/Rotate';
 
 /**

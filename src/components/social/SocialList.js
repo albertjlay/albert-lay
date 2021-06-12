@@ -1,4 +1,4 @@
-import styles from './SocialList.module.css';
+import styles from './SocialList.module.scss';
 import Social from './Social';
 
 const socialObjects = [

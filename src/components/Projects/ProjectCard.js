@@ -1,4 +1,4 @@
-import styles from './ProjectCard.module.css';
+import styles from './ProjectCard.module.scss';
 import Zoom from 'react-reveal/Zoom';
 
 const ProjectCard = (props) => {

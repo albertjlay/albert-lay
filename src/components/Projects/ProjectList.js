@@ -2,7 +2,7 @@ import pokedex from '../../assets/images/pokedex.png';
 import tracenext from '../../assets/images/tracenext.png';
 import statsmadeeasy from '../../assets/images/statsmadeeasy.png';
 import ngg from '../../assets/images/ngg.png';
-import styles from './ProjectList.module.css';
+import styles from './ProjectList.module.scss';
 import ProjectCard from './ProjectCard';
 
 const projectData = [

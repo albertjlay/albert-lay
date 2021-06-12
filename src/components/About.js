@@ -1,5 +1,5 @@
 import polaroid from '../assets/images/polaroid.png';
-import styles from './About.module.css';
+import styles from './About.module.scss';
 import Fade from 'react-reveal/Fade';
 import getWindowDimensions from '../utils/windowDimensions';
 import { useState } from 'react';

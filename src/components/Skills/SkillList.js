@@ -1,4 +1,4 @@
-import styles from './SkillList.module.css';
+import styles from './SkillList.module.scss';
 import SkillCard from './SkillCard';
 
 // Last updated May 30, 2021.

@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+import styles from './Footer.module.scss';
 import SocialList from './social/SocialList';
 import { animateScroll as scroll } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
