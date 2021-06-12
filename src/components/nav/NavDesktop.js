@@ -1,4 +1,4 @@
-import styles from './NavDesktop.module.css';
+import styles from './NavDesktop.module.scss';
 import logo from '../../assets/logo.svg';
 import { Link } from 'react-scroll';
 

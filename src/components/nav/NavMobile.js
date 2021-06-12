@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.svg';
-import styles from './NavMobile.module.css';
+import styles from './NavMobile.module.scss';
 import NavModal from './NavModal';
 
 const NavMobile = (props) => {

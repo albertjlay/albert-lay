@@ -1,6 +1,6 @@
 import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
-import styles from './Nav.module.css';
+import styles from './Nav.module.scss';
 
 const sectionList = ['home', 'about', 'skills', 'projects'];
 const Nav = () => {

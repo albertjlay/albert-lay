@@ -1,4 +1,4 @@
-import styles from './NavModal.module.css';
+import styles from './NavModal.module.scss';
 import logo from '../../assets/logo.svg';
 import SocialList from '../social/SocialList';
 import { Link } from 'react-scroll';
