@@ -31,11 +31,10 @@ button,
   cursor: pointer;
   transition: all 100ms ease-in;
   font-weight: 700;
-}
-.button-style {
   text-decoration: none;
   color: black;
 }
+
 button:hover,
 button.active,
 .button-style.active {
