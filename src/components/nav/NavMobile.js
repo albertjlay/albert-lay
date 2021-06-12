@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ReactDOM from 'react-dom';
 import logo from '../../assets/logo.svg';
 import styles from './NavMobile.module.scss';
 import NavModal from './NavModal';
@@ -15,12 +16,16 @@ const NavMobile = (props) => {
 
   return (
     <div>
-      <NavModal
-        active={modalDisplay}
-        closeModalHandler={closeNavHandler}
-        className={styles.modal}
-        sectionList={props.sectionList}
-      />
+      {ReactDOM.createPortal(
+        <NavModal
+          active={modalDisplay}
+          closeModalHandler={closeNavHandler}
+          className={styles.modal}
+          sectionList={props.sectionList}
+        />,
+        document.getElementById('modal-root')
+      )}
+
       <div className={styles['nav-mobile']}>
         <img src={logo} alt="Logo for website"></img>
         <svg
