@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
 
           <div className={styles.tools}>
             {props.data.tools.map((el) => {
-              return <span>{el}</span>;
+              return <span key={el}>{el}</span>;
             })}
           </div>
           <div className={styles.links}>

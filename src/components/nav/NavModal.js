@@ -18,7 +18,7 @@ const NavModal = (props) => {
         onClick={exitHandler}
       >
         <polygon
-          fill-rule="evenodd"
+          fillRule="evenodd"
           points="13 11 22 11 22 13 13 13 13 22 11 22 11 13 2 13 2 11 11 11 11 2 13 2"
         />
       </svg>

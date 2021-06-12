@@ -30,7 +30,7 @@ const NavMobile = (props) => {
           onClick={openNavHandler}
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M22,17 L22,19 L2,19 L2,17 L22,17 Z M22,11 L22,13 L2,13 L2,11 L22,11 Z M22,5 L22,7 L2,7 L2,5 L22,5 Z"
           />
         </svg>
