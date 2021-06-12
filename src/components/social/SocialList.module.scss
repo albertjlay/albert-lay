@@ -3,16 +3,19 @@
   text-align: center;
   transition: all 100ms ease-in;
   width: 100%;
-}
-.social-list li {
-  display: inline;
-  margin: 0 4%;
-}
-.social-list li svg {
-  width: 15%;
-  height: auto;
-  transition: all 100ms ease-in;
-}
-.social-list li svg:hover {
-  fill: var(--dark-orange);
+
+  li {
+    display: inline;
+    margin: 0 4%;
+
+    svg {
+      width: 15%;
+      height: auto;
+      transition: all 100ms ease-in;
+
+      &:hover {
+        fill: var(--dark-orange);
+      }
+    }
+  }
 }

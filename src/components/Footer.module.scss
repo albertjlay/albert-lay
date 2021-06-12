@@ -3,30 +3,31 @@ footer {
   background-color: var(--primary-blue);
   padding: 1em 0;
   text-align: center;
-}
 
-footer .chevrons {
-  margin: auto;
-  height: 100%;
-  width: 100%;
-}
-footer .chevrons svg {
-  height: 10%;
-  width: 10%;
-  cursor: pointer;
-  transition: all 100ms ease-in;
-}
-footer .chevrons svg:hover {
-  fill: var(--yellow);
-}
+  .chevrons {
+    margin: auto;
+    height: 100%;
+    width: 100%;
 
-footer .socials {
-  width: 50%;
-  margin: auto;
-}
+    svg {
+      height: 10%;
+      width: 10%;
+      cursor: pointer;
+      transition: all 100ms ease-in;
+      &:hover {
+        fill: var(--yellow);
+      }
+    }
+  }
 
-footer .copyright {
-  font-weight: 300;
+  .socials {
+    width: 50%;
+    margin: auto;
+  }
+
+  .copyright {
+    font-weight: 300;
+  }
 }
 
 @media (min-width: 800px) {
