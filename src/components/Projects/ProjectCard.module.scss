@@ -8,44 +8,45 @@
   overflow: hidden;
   margin: 1vh auto;
   background-color: rgba(255, 255, 255, 0.8);
-}
-.project-card img {
-  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .info {
+    margin-top: 1em;
+    .name {
+      font-weight: 700;
+      font-size: 1.5em;
+      margin-top: 0.4em;
+      margin-bottom: 0.6em;
+    }
+    .tools span {
+      margin: 0 0.6em;
+      font-size: 1em;
+      color: var(--gray);
+    }
+    .links {
+      margin: 1.5em auto;
+      width: 90%;
+      a {
+        color: black;
+        text-decoration: none;
+        margin: 0 5%;
+        display: inline-block;
+        width: 25%;
+      }
+    }
+  }
 }
 
-.project-card .info {
-  margin-top: 1em;
-}
-.project-card .info .name {
-  font-weight: 700;
-  font-size: 1.5em;
-  margin-top: 0.4em;
-  margin-bottom: 0.6em;
-}
-.project-card .info .tools span {
-  margin: 0 0.6em;
-  font-size: 1em;
-  color: var(--gray);
-}
-
-.project-card .info .links {
-  margin: 1.5em auto;
-  width: 90%;
-}
-.project-card .info .links a {
-  color: black;
-  text-decoration: none;
-  margin: 0 5%;
-  display: inline-block;
-  width: 25%;
-}
 @media (max-width: 500px) {
   .project-card .info .links a {
     font-size: 0.7em;
+    &:hover {
+      background-color: var(--dark-orange);
+      color: white;
+      text-decoration: underline;
+    }
   }
-}
-.project-card .info .links a:hover {
-  background-color: var(--dark-orange);
-  color: white;
-  text-decoration: underline;
 }
