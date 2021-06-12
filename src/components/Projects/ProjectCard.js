@@ -1,9 +1,9 @@
 import styles from './ProjectCard.module.scss';
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 const ProjectCard = (props) => {
   return (
-    <Zoom right>
+    <Fade>
       <li className={styles['project-card']}>
         <img src={props.data.media} alt={`screenshot of ${props.data.name}`} />
         <div className={styles.info}>
@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
           </div>
         </div>
       </li>
-    </Zoom>
+    </Fade>
   );
 };
 export default ProjectCard;
