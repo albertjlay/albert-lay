@@ -37,8 +37,8 @@ const About = () => {
               of my daily life!
             </p>
             <p>
-              <b>Currently looking for opportunities in Winter 2022!</b>
-              <br /> Available for various kinds of software roles, remote or in-person.
+              <b>Currently looking for opportunities in Winter 2022! </b>
+              Available for various kinds of software roles, remote or in-person in Canada.
             </p>
           </div>
         </Fade>
