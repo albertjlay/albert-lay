@@ -5,6 +5,7 @@ import { scroller } from 'react-scroll';
 import { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import getWindowDimensions from '../utils/windowDimensions';
+import resume from '../assets/resume-albert-lay.pdf';
 
 const rotatingTextData = [
   'Student software engineer',
@@ -55,12 +56,7 @@ const Home = () => {
             >
               say hi!
             </a>
-            <a
-              className="button-style"
-              href="https://drive.google.com/file/d/18MJtE9icLKQqg7XLZRi5m49c8COWzp_E/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="button-style" href={resume} target="_blank" rel="noreferrer">
               view resume
             </a>
           </div>
