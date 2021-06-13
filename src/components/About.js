@@ -1,4 +1,4 @@
-import polaroid from '../assets/images/polaroid.png';
+import polaroid from '../assets/images/polaroid.webp';
 import styles from './About.module.scss';
 import Fade from 'react-reveal/Fade';
 import getWindowDimensions from '../utils/windowDimensions';
