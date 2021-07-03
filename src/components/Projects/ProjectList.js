@@ -1,3 +1,5 @@
+import tictactoe from '../../assets/images/tic-tac-toe.webp';
+import personalwebsite from '../../assets/images/personal-website.webp'
 import pokedex from '../../assets/images/pokedex.webp';
 import tracenext from '../../assets/images/tracenext.webp';
 import statsmadeeasy from '../../assets/images/statsmadeeasy.webp';
@@ -6,6 +8,36 @@ import styles from './ProjectList.module.scss';
 import ProjectCard from './ProjectCard';
 
 const projectData = [
+  {
+    name: 'Unbeatable Tic Tac Toe',
+    description: (
+      <p>
+        A web-based Tic Tac Toe with three modes: Human vs Human, Human vs Dumb AI (chooses moves randomly), 
+        and Human vs Unbeatable AI (chooses moves based on 
+        <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">
+          algorithm proven unbeatable
+        </a>)
+      </p>
+    ),
+    dateCreated: new Date(2021, 6),
+    media: tictactoe,
+    tools: ['TypeScript', 'Sass', 'Jest'],
+    remote: 'https://github.com/albertjlay/tic-tac-toe',
+    livesite: 'https://albertjlay.github.io/tic-tac-toe/',
+  },
+  {
+    name: 'Personal Website',
+    description: (
+      <p>
+        This website! Designed entirely from scratch with Figma and built using React.
+      </p>
+    ),
+    dateCreated: new Date(2021, 5),
+    media: personalwebsite,
+    tools: ['React', 'Sass', 'Figma'],
+    remote: 'mailto:albertjlay@gmail.com?subject=Hey,%20Albert!&body=May%20I%20take%20a%20look%20at%20your%20private%20personal%20website%20repo?',
+    livesite: 'https://www.albertjlay.com/',
+  },
   {
     name: 'Pokedex',
     description: (
