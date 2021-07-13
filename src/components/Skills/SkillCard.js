@@ -13,11 +13,11 @@ const timeElapsed = (startDate) => {
     time: Math.round((Date.now() - startDate) / (30 * 3600 * 24 * 1000)),
     unit: 'months',
   };
-  if (retval.time >= 24) {
-    retval.time = retval.time / 12;
+  if (retval.time >= 18) {
+    retval.time = Math.round(retval.time / 12);
     retval.unit = 'years';
   } else if (retval.time >= 12) {
-    retval.time = retval.time / 12;
+    retval.time = Math.round(retval.time / 12);
     retval.unit = 'year';
   } else if (retval.time <= 1) {
     retval.unit = 'month';
