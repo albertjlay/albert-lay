@@ -1,7 +1,6 @@
 .skill-card {
   width: 100%;
-  padding: 1em 0;
-  border-color: rebeccapurple;
+  padding: 30px 0;
 
   .wrapper {
     display: flex;
@@ -9,8 +8,7 @@
 
   svg {
     width: 10%;
-    height: auto;
-    margin-right: 2em;
+    margin-right: 30px;
   }
 
   .content {
