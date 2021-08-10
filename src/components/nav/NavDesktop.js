@@ -1,5 +1,5 @@
 import styles from './NavDesktop.module.scss';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const NavDesktop = (props) => {

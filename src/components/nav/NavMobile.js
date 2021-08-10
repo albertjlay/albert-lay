@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ReactDOM from 'react-dom';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import styles from './NavMobile.module.scss';
 import NavModal from './NavModal';
 

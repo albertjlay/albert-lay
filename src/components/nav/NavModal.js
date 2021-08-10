@@ -1,5 +1,5 @@
 import styles from './NavModal.module.scss';
-import logo from '../../assets/logo.svg';
+// import logo from '../../assets/logo.png';
 import SocialList from '../social/SocialList';
 import { Link } from 'react-scroll';
 
@@ -9,7 +9,7 @@ const NavModal = (props) => {
   };
   return (
     <div className={`${styles.nav} ${props.active && styles.active}`}>
-      <img src={logo} alt="Logo for website"></img>
+      {/* <img src={logo} alt="Logo for website"></img> */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
