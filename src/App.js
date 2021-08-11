@@ -10,9 +10,8 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize('G-WBEQNCD6RY');
-
-    ReactGA.pageview('home');
+    ReactGA.initialize('UA-204749576-2');
+    ReactGA.pageview('/');
   }, []);
 
   return (
