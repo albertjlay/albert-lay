@@ -5,7 +5,7 @@ import { scroller } from 'react-scroll';
 import { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import getWindowDimensions from '../utils/windowDimensions';
-import resume from '../assets/resume-albert-lay.pdf';
+import resume from '../assets/albert-lay-resume.pdf';
 
 const rotatingTextData = [
   'Student software engineer',

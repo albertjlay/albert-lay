@@ -1,5 +1,6 @@
+import covidwatchdog from '../../assets/images/covid-watchdog.webp';
 import tictactoe from '../../assets/images/tic-tac-toe.webp';
-import personalwebsite from '../../assets/images/personal-website.webp'
+import personalwebsite from '../../assets/images/personal-website.webp';
 import pokedex from '../../assets/images/pokedex.webp';
 import tracenext from '../../assets/images/tracenext.webp';
 import statsmadeeasy from '../../assets/images/statsmadeeasy.webp';
@@ -9,14 +10,25 @@ import ProjectCard from './ProjectCard';
 
 const projectData = [
   {
+    name: 'COVID Watchdog',
+    description: (
+      <p>
+        An intuitive COVID-19 data visualizer which helps Canadians plan how to explore the Great
+        North safely.
+      </p>
+    ),
+    dateCreated: new Date(2021, 8),
+    media: covidwatchdog,
+    tools: ['React', 'Sass', 'Node.js'],
+    remote: 'https://github.com/jaredjhe/Covid-Watchdog',
+  },
+  {
     name: 'Unbeatable Tic Tac Toe',
     description: (
       <p>
-        A web-based Tic Tac Toe with three modes: Human vs Human, Human vs Dumb AI (chooses moves randomly), 
-        and Human vs Unbeatable AI (chooses moves based on 
-        <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">
-          algorithm proven unbeatable
-        </a>)
+        A web-based Tic Tac Toe with three modes: Human vs Human, Human vs Dumb AI (chooses moves
+        randomly), and Human vs Unbeatable AI (chooses moves based on
+        <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">algorithm proven unbeatable</a>)
       </p>
     ),
     dateCreated: new Date(2021, 6),
@@ -28,14 +40,13 @@ const projectData = [
   {
     name: 'Personal Website',
     description: (
-      <p>
-        This website! Designed entirely from scratch with Figma and built using React.
-      </p>
+      <p>This website! Designed entirely from scratch with Figma and built using React.</p>
     ),
     dateCreated: new Date(2021, 5),
     media: personalwebsite,
     tools: ['React', 'Sass', 'Figma'],
-    remote: 'mailto:albertjlay@gmail.com?subject=Hey,%20Albert!&body=May%20I%20take%20a%20look%20at%20your%20private%20personal%20website%20repo?',
+    remote:
+      'mailto:albertjlay@gmail.com?subject=Hey,%20Albert!&body=May%20I%20take%20a%20look%20at%20your%20private%20personal%20website%20repo?',
     livesite: 'https://www.albertjlay.com/',
   },
   {
@@ -50,7 +61,7 @@ const projectData = [
     ),
     dateCreated: new Date(2021, 4),
     media: pokedex,
-    tools: ['HTML5', 'CSS3', 'JavaScript'],
+    tools: ['JavaScript', 'HTML5', 'CSS3'],
     remote: 'https://github.com/albertjlay/pokedex',
     livesite: 'https://albertjlay.github.io/pokedex/',
   },
