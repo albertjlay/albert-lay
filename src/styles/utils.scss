@@ -1,0 +1,21 @@
+@use 'variables' as v;
+
+.social-link {
+  width: 100%;
+
+  & > svg {
+    width: 50%;
+    fill: white;
+    transition: all 100ms;
+
+    &:hover {
+      fill: v.$highlight-yellow;
+    }
+  }
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

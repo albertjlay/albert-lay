@@ -1,0 +1,62 @@
+@use 'variables' as v;
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  p {
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 7vw;
+    font-weight: 600;
+    margin-bottom: 5vh;
+
+    .name {
+      text-decoration: underline v.$primary-yellow solid 2px;
+      text-underline-offset: 10px;
+    }
+  }
+
+  .menu {
+    .menu-links {
+      font-weight: 300;
+      padding: 2rem;
+      font-size: 2rem;
+      transition: all 100ms;
+
+      &:hover {
+        text-decoration: underline v.$primary-yellow solid 5px;
+      }
+    }
+  }
+
+  .home-socials {
+    margin: 5vh 0;
+    width: 20vw;
+  }
+
+  .waves {
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    z-index: -1;
+
+    & > svg {
+      fill: rgba(232, 199, 102, 0.3);
+      position: absolute;
+      top: -20vh;
+      left: 0;
+      animation: ltor 30s linear infinite;
+    }
+
+    @keyframes ltor {
+    }
+  }
+}

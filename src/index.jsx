@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
+import Home from './components/Home';
+import './styles/index.scss';
+import './styles/utils.scss';
+import './styles/Home.scss';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(<React.StrictMode>Hi</React.StrictMode>, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
