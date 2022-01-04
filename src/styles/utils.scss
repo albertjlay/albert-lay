@@ -19,3 +19,23 @@
   display: flex;
   justify-content: space-between;
 }
+
+.section-heading {
+  position: relative;
+  .section-circle {
+    position: absolute;
+    background-color: rgba(232, 175, 48, 0.3);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    z-index: -1;
+    top: -1rem;
+    left: -1rem;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  margin: 1rem;
+}
