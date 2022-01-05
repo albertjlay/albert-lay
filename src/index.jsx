@@ -4,11 +4,14 @@ import Home from './components/Home';
 import './styles/index.scss';
 import './styles/utils.scss';
 import './styles/Home.scss';
+import './styles/About.scss';
 import reportWebVitals from './reportWebVitals';
+import About from './components/About';
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );
