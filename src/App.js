@@ -6,6 +6,7 @@ import ProjectList from './components/Projects/ProjectList';
 import Footer from './components/Footer';
 import ReactGA from 'react-ga';
 import { useEffect } from 'react';
+import Experiences from './components/Experiences/Experiences';
 
 function App() {
   useEffect(() => {
@@ -15,11 +16,12 @@ function App() {
 
   return (
     <div className="App">
-      <Nav></Nav>
-      <Home></Home>
-      <About></About>
-      <ProjectList></ProjectList>
-      <Footer></Footer>
+      <Nav />
+      <Home />
+      <About />
+      <Experiences />
+      <ProjectList />
+      <Footer />
     </div>
   );
 }
