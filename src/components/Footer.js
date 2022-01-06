@@ -27,7 +27,7 @@ const Footer = () => {
       <div className={styles.socials}>
         <SocialList></SocialList>
       </div>
-      <div className={styles.copyright}>© 2021 Albert Lay | All rights reserved.</div>
+      <div className={styles.copyright}>© 2022 Albert Lay | All rights reserved.</div>
     </footer>
   );
 };
