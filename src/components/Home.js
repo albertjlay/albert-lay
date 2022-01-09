@@ -10,11 +10,8 @@ import resume from '../assets/albert-lay-resume.pdf';
 const rotatingTextData = [
   'Student software engineer',
   'UW CS student',
+  'Travel addict',
   'Rice lover',
-  'Science nerd',
-  'Part-time gamer',
-  'Avid MCU fan',
-  'Travel addict (on pause)',
 ];
 
 const Home = () => {
