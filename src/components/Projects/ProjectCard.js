@@ -14,6 +14,7 @@ const ProjectCard = (props) => {
               return <span key={el}>{el}</span>;
             })}
           </div>
+          <p>{props.data.description}</p>
           <div className={styles.links}>
             <a className="button-style" href={props.data.remote} target="_blank" rel="noreferrer">
               Github

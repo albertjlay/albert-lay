@@ -8,25 +8,27 @@
     padding-bottom: 1em;
     display: grid;
     grid-column-gap: 5%;
+    row-gap: 1%;
     margin: auto;
   }
 }
 
 @media (min-width: 1130px) {
   .projects-section {
-    grid-template-columns: 1fr 4fr;
-    display: grid;
-    align-items: center;
-    h2 {
-      padding: 0;
-      border: none;
-      height: auto;
-      font-size: 5.5vw;
-    }
+    // h2 {
+    //   padding: 0;
+    //   border: none;
+    //   height: auto;
+    //   font-size: 5.5vw;
+    //   align-self: flex-start;
+    //   justify-self: flex-start;
+    // }
     ul {
-      grid-template-columns: 1fr 1fr;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
       justify-self: end;
-      margin: 0;
+      margin: 0 auto;
     }
   }
 }
