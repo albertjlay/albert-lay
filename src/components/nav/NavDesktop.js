@@ -8,7 +8,7 @@ const NavDesktop = (props) => {
       <img src={logo} alt="Logo for website"></img>
       <ul className={styles['nav-list']}>
         {props.sectionList.map((el) => (
-          <li key={el}>
+          <li key={el} className={styles['nav-options']}>
             <Link to={el} smooth={true}>
               {el}
             </Link>

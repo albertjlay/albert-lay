@@ -8,7 +8,7 @@ function Experiences() {
   return (
     <section className={styles.experiences}>
       <h2>Places I've been</h2>
-      <VerticalTimeline lineColor="#FCE555" layout="1-column-left">
+      <VerticalTimeline lineColor="#FCE555" layout="1-column-left" style={{ margin: 0 }}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#5EBABC', color: '#fff' }}

@@ -20,11 +20,10 @@
     font-weight: 300;
     font-size: 1.6em;
 
-    li:hover {
+    .nav-options:hover {
       transition: all 100ms ease-in;
       cursor: pointer;
       text-decoration: underline;
-      font-weight: 600;
     }
   }
 }

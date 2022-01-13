@@ -6,23 +6,12 @@
     width: 80%;
     text-align: center;
     padding-bottom: 1em;
-    display: grid;
-    grid-column-gap: 5%;
-    row-gap: 1%;
     margin: auto;
   }
 }
 
 @media (min-width: 1130px) {
   .projects-section {
-    // h2 {
-    //   padding: 0;
-    //   border: none;
-    //   height: auto;
-    //   font-size: 5.5vw;
-    //   align-self: flex-start;
-    //   justify-self: flex-start;
-    // }
     ul {
       display: grid;
       align-items: center;
