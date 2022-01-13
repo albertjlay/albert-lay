@@ -1,3 +1,4 @@
+import cc3k from '../../assets/images/cc3k.webp';
 import covidwatchdog from '../../assets/images/covid-watchdog.webp';
 import tictactoe from '../../assets/images/tic-tac-toe.webp';
 import personalwebsite from '../../assets/images/personal-website.webp';
@@ -9,19 +10,18 @@ import styles from './ProjectList.module.scss';
 import ProjectCard from './ProjectCard';
 
 const projectData = [
-  // {
-  //   name: 'ChamberCrawler',
-  //   description: (
-  //     <p>
-  //       Built for Hack The North 2021. An intuitive COVID-19 data visualizer which helps Canadians
-  //       plan how to explore the Great North safely.
-  //     </p>
-  //   ),
-  //   dateCreated: new Date(2021, 8),
-  //   media: covidwatchdog,
-  //   tools: ['React', 'Sass', 'Node.js'],
-  //   remote: 'https://github.com/jaredjhe/Covid-Watchdog',
-  // },
+  {
+    name: 'CC3K',
+    description: (
+      <p>
+        CS246 group final project awarded a mark of 98.5% on correctness, design, and documentation.
+        A spin on the classic game Rogue.
+      </p>
+    ),
+    dateCreated: new Date(2021, 11),
+    media: cc3k,
+    tools: ['C++', 'NCurses'],
+  },
   {
     name: 'COVID Watchdog',
     description: (
@@ -57,9 +57,6 @@ const projectData = [
     dateCreated: new Date(2021, 5),
     media: personalwebsite,
     tools: ['React', 'Sass', 'Figma'],
-    remote:
-      'mailto:albertjlay@gmail.com?subject=Hey,%20Albert!&body=May%20I%20take%20a%20look%20at%20your%20private%20personal%20website%20repo?',
-    livesite: 'https://www.albertjlay.com/',
   },
   {
     name: 'Pokedex',
@@ -80,8 +77,8 @@ const projectData = [
     name: 'TraceNext',
     description: (
       <p>
-        Built for <a href="https://tohacks.ca/">ToHacks 2021</a>. A contact-tracing software that
-        emails users if they have been in contact with a user who has tested positive. Utilizes the{' '}
+        Built for ToHacks 2021. A contact-tracing software that emails users if they have been in
+        contact with a user who has tested positive. Utilizes the{' '}
         <a href="https://developers.google.com/maps">Google Maps</a> and{' '}
         <a href="https://www.emailjs.com/">EmailJS</a> API.
       </p>
@@ -96,9 +93,10 @@ const projectData = [
     name: 'Stats Made Easy',
     description: (
       <p>
-        Calculate probabilities modelled with a normal, binomial, or Poisson distribution using{' '}
-        <a href="https://www.scipy.org/">SciPy</a>. Supports plotting of the normal distribution
-        curve using <a href="https://matplotlib.org/">MatPlotLib</a>.
+        Native program to calculate probabilities modeled with a normal, binomial, or Poisson
+        distribution. Supports plotting of the normal distribution curve. Utilizes{' '}
+        <a href="https://www.scipy.org/">SciPy</a> and{' '}
+        <a href="https://matplotlib.org/">MatPlotLib</a>.
       </p>
     ),
     dateCreated: new Date(2020, 8),
