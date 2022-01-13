@@ -33,6 +33,15 @@ function Experiences() {
             Imagine Communications
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Full Stack Web Developer</h4>
+          <p>
+            Tools: C#, .NET, PostgreSQL, Vue, PowerShell, Mercurial, Jira
+            <ul>
+              <li>
+                Collaborating in an agile team of 18 to develop features for a cloud-based
+                schedule-execution engine used by broadcasting companies worldwide.
+              </li>
+            </ul>
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -62,9 +71,12 @@ function Experiences() {
             Tools: React (Bootstrap & Styleguidist), Sass, Jest, ESLint
             <ul>
               <li>
-                - Led the development of the redesigned website to serve 1600+ community members.
+                - Headed the development of the redesigned website to serve 1600+ community members.
               </li>
-              <li>- Transformed designs into reusable, modular, and well-documented components.</li>
+              <li>
+                - Transformed design mocks into a fully functional single-page application using a
+                reusable, modular, component architecture.
+              </li>
             </ul>
           </p>
         </VerticalTimelineElement>
@@ -96,8 +108,8 @@ function Experiences() {
             Tools: WordPress, Avada
             <ul>
               <li>
-                - Enlisted to develop the MathSoc Cartoons page in collaboration with their
-                coordinator, which houses 18 comics created over 3 terms.
+                - Spearheaded the development of the MathSoc Cartoons page in collaboration with
+                their coordinator, which houses 18 comics created over 3 terms.
               </li>
               <li>
                 - Updated website with events targeted to 8,000+ students in the Faculty of

@@ -1,5 +1,5 @@
 .project-card {
-  height: 70vh;
+  height: 34rem;
   width: 100%;
   border-radius: 10px;
   display: inline-block;
@@ -15,8 +15,7 @@
   .info {
     margin-top: 1em;
     padding: 0 2rem 1rem 2rem;
-    height: 45%;
-    position: relative;
+    height: 60%;
 
     .name {
       font-weight: 700;
@@ -40,9 +39,7 @@
       margin: 1em auto;
       width: 100%;
       font-size: 0.8rem;
-      position: absolute;
-      top: 100%;
-      left: 0px;
+
       a {
         margin: 0 3%;
         display: inline-block;

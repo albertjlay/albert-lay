@@ -94,7 +94,7 @@ const projectData = [
     description: (
       <p>
         Native program to calculate probabilities modeled with a normal, binomial, or Poisson
-        distribution. Supports plotting of the normal distribution curve. Utilizes{' '}
+        distribution. Supports plotting of the normal. Utilizes{' '}
         <a href="https://www.scipy.org/">SciPy</a> and{' '}
         <a href="https://matplotlib.org/">MatPlotLib</a>.
       </p>
