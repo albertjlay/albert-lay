@@ -38,10 +38,12 @@ const About = () => {
               of Smash?).
             </p>
             <p>
-              <b>Currently looking for opportunities in Spring 2022! </b>
+              <b>Currently looking for opportunities in Winter 2023! </b>
               Available for various kinds of software roles, remote or in-person in Canada.
             </p>
-            <LanguageList langs={['cplusplus', 'figma', 'react', 'sass', 'typescript']} />
+            <LanguageList
+              langs={['react', 'typescript', 'csharp', 'cplusplus', 'sass', 'dotnet']}
+            />
           </div>
         </Fade>
       </div>
